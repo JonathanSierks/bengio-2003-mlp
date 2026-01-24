@@ -1,16 +1,14 @@
 # Python
 __pycache__/
 *.pyc
-.venv/
-venv/
+.autogradvenv/
+autogradvenv/
 
 # Jupyter
 .ipynb_checkpoints/
 
 # ML/Data
-data/
-*.pt
-*.ckpt
+
 
 # OS
 .DS_Store
