@@ -1,8 +1,8 @@
 # Python
 __pycache__/
 *.pyc
-.autogradvenv/
-autogradvenv/
+.venv/
+venv/
 
 # Jupyter
 .ipynb_checkpoints/

@@ -1,7 +1,6 @@
 import torch
 import torch.nn.functional as F
 
-
 def init_parameters(vocab_size, context_size, emb_dim, hidden_dim, device, g):
     # create parameter tensors
     C = torch.randn((vocab_size, emb_dim), generator=g)

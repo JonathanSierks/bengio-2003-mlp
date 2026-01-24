@@ -70,7 +70,7 @@ def run(cfg):
     print(f"Using device: {device}")
 
     # 2. Data pipeline
-    words = load_brown_words("./brown")
+    words = load_brown_words("./data/processed/brown")
     print(f"Size of full dataset on word level: {len(words)}")
     sentences = reconstruct_sentences(words)
     print(f"Size of full dataset on sentence level: {len(sentences)}")
